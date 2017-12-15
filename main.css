@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-family: Spectral SC;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://lh3.googleusercontent.com/IL1qILXlQ_qKwDHvFGvNaMcweqClSchOp98Ingev3sTvSd9EZkHUKbw5L43ZZkI_ZDr_ESRNRXkHVN4wdK_15ys5f0JusmDcecDudvqJ4EkCQqV2GRb6VkN0g-P4rbdxAFFmliPqWLtAAWP5JFO7YljijxRUj4ltyOqTkEW7ipVjPeAKDvE91riJ5Ah5I0Cqm7ZSw1IaqAL5heoJHCU7IPz5xR3N1mnK0cfuOMLSS8_E1L7gqlFcY5zhk9MljeQQPSgLIoYUbH5KP-phVDRon7NKOTIObZ8M_6iEAkZdc4Esk4IVoGx2m0yisbkZlLicx37I4Ng1GSd2Alv5zweqko1cCTy25WuulVlPSe-bmnsPDRMMMjx3C-yRZfLF8bNfkiz0-lUINPpXDj91kf7RC-SvPtjk3q-KRfitwPlk4_D7yzKMBn6jr6ic7RevDEqI-CgmLXlwFlFin-icPO2o4gYHGA4_0xbdqtOT_2Ri6mvunytcHysSqoLV1hAjHItTgOZlfDH3QpMR0vxLnvU1LuFWEPJlZCdnlmvrNX0B9aJZ-xqIeERbUej2EL9oUq-rFg6lKw6rcCgvk5agn8DWIuCkGNlqiRQyiMS_RdRKAWuGunYrvJQ7YXxgBfumEZ_jm5TRERIZg6kHa172_fFegyvYP-u8JHbXyi7D=w647-h394-no');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
